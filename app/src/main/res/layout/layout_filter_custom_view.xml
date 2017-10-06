@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+
+
+    android:orientation="vertical">
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="New CheckBox"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="8dp"
+        android:text="New Button"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="8dp"
+        android:text="dismiss"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llmain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/rl"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="fill_parent"
+
+                        android:background="#FFF">
+
+                        <!--
+                                <include
+                                    android:id="@+id/toolbar"
+                                    layout="@layout/toolbar">
+
+                                </include>-->
+
+                        <!--Statrt Toolbar design-->
+                        <!--<android.support.v7.widget.Toolbar  xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+
+                        android:minHeight="?attr/actionBarSize"
+                        android:background="#2c3039"
+                        android:id="@+id/toolbar" >
+
+
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_weight="0"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/icon_cancel"
+
+                                    />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+
+
+
+
+                    </android.support.v7.widget.Toolbar>-->
+
+                        <!--Complete Toolbar Design-->
+
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+
+                            android:scrollbars="none">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/toolbar"
+                                android:orientation="vertical">
+
+
+                                <!--  &lt;!&ndash;*********size**********&ndash;&gt;
+
+                                  <LinearLayout
+                                      android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:orientation="vertical"
+                                      android:padding="16dp"
+                                      android:visibility="gone">
+
+
+                                      <com.yelona.customfonts.MyTextView
+
+                                          android:id="@+id/size"
+                                          android:layout_width="match_parent"
+                                          android:layout_height="wrap_content"
+                                          android:layout_weight="1"
+                                          android:text="SIZE"
+                                          android:textColor="@color/colorTex"
+                                          android:textSize="17dp" />
+
+
+                                      <LinearLayout
+                                          android:layout_width="match_parent"
+
+                                          android:layout_height="wrap_content"
+                                          android:layout_marginTop="10dp"
+                                          android:orientation="horizontal">
+
+                                          <com.yelona.customfonts.MyTextView
+                                              android:id="@+id/ss"
+                                              android:layout_width="34dp"
+                                              android:layout_height="34dp"
+                                              android:layout_gravity="center"
+                                              android:layout_margin="5dp"
+                                              android:background="@drawable/sizeround1"
+                                              android:gravity="center"
+                                              android:text="S"
+                                              android:textColor="@color/colorTex"
+
+                                              />
+
+                                          <com.yelona.customfonts.MyTextView
+                                              android:id="@+id/m"
+
+                                              android:layout_width="34dp"
+                                              android:layout_height="34dp"
+                                              android:layout_gravity="center"
+                                              android:layout_margin="5dp"
+                                              android:background="@drawable/sizeround1"
+                                              android:gravity="center"
+                                              android:text="M"
+                                              android:textColor="@color/colorTex"
+
+                                              />
+
+                                          <com.yelona.customfonts.MyTextView
+                                              android:id="@+id/l"
+
+                                              android:layout_width="34dp"
+                                              android:layout_height="34dp"
+                                              android:layout_gravity="center"
+                                              android:layout_margin="5dp"
+                                              android:background="@drawable/sizeround1"
+                                              android:gravity="center"
+                                              android:text="L"
+                                              android:textColor="@color/colorTex"
+
+                                              />
+
+                                          <com.yelona.customfonts.MyTextView
+                                              android:id="@+id/xl"
+
+                                              android:layout_width="34dp"
+                                              android:layout_height="34dp"
+                                              android:layout_gravity="center"
+                                              android:layout_margin="5dp"
+                                              android:background="@drawable/sizeround1"
+                                              android:gravity="center"
+                                              android:text="XL"
+                                              android:textColor="@color/colorTex"
+
+                                              />
+
+                                          <com.yelona.customfonts.MyTextView
+                                              android:id="@+id/xxl"
+
+                                              android:layout_width="34dp"
+                                              android:layout_height="34dp"
+                                              android:layout_gravity="center"
+                                              android:layout_margin="5dp"
+                                              android:background="@drawable/sizeround1"
+                                              android:gravity="center"
+                                              android:text="XXL"
+                                              android:textColor="@color/colorTex"
+
+                                              />
+                                      </LinearLayout>
+                                  </LinearLayout>
+  -->
+
+                                <!--*********color**********-->
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="16dp"
+                                    android:visibility="gone">
+
+
+                                    <com.yelona.customfonts.MyTextView
+
+                                        android:id="@+id/color"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="COLOR"
+                                        android:textColor="@color/colorTex"
+                                        android:textSize="17dp" />
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="34dp"
+                                            android:layout_height="34dp"
+                                            android:layout_gravity="center"
+                                            android:layout_margin="5dp"
+                                            android:background="@drawable/round1" />
+
+                                        <ImageView
+                                            android:layout_width="34dp"
+                                            android:layout_height="34dp"
+                                            android:layout_gravity="center"
+                                            android:layout_margin="5dp"
+                                            android:background="@drawable/round2" />
+
+                                        <ImageView
+                                            android:layout_width="34dp"
+                                            android:layout_height="34dp"
+                                            android:layout_gravity="center"
+                                            android:layout_margin="5dp"
+                                            android:background="@drawable/round3" />
+
+                                        <ImageView
+                                            android:layout_width="34dp"
+                                            android:layout_height="34dp"
+                                            android:layout_gravity="center"
+                                            android:layout_margin="5dp"
+                                            android:background="@drawable/round4" />
+
+                                        <ImageView
+                                            android:layout_width="34dp"
+                                            android:layout_height="34dp"
+                                            android:layout_gravity="center"
+                                            android:layout_margin="5dp"
+                                            android:background="@drawable/round5" />
+
+                                        <ImageView
+                                            android:layout_width="34dp"
+                                            android:layout_height="34dp"
+                                            android:layout_gravity="center"
+                                            android:layout_margin="5dp"
+                                            android:background="@drawable/round6" />
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <!--  Dispaly Procudt Size -->
+                                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/crdSize"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:clickable="true"
+                                    android:elevation="10dp"
+                                    android:orientation="horizontal">
+
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+
+                                        <LinearLayout
+                                            android:id="@+id/llSize"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:layout_margin="4dp">
+
+
+                                            <com.yelona.customfonts.MyTextView
+
+                                                android:id="@+id/size"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_weight="1"
+                                                android:text="SIZE"
+                                                android:textColor="@color/colorTex"
+                                                android:textSize="17dp" />
+
+                                            <android.support.v7.widget.RecyclerView
+                                                android:id="@+id/recyclerview_size"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+
+                                                android:visibility="visible" />
+
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+
+                                <!--Complete Display Size UI-->
+
+
+                                <!--UI For Display Pricing Filter-->
+                                <LinearLayout
+                                    android:id="@+id/llPricing"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <Button
+
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="8dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_weight="1"
+                                        android:background="@null"
+                                        android:clickable="false"
+                                        android:gravity="left|center"
+                                        android:text="Price"
+                                        android:textColor="@color/colorTex"
+                                        android:textSize="16dp" />
+                                    <!--Complete Color-->
+                                    <com.yelona.views.RangeBar xmlns:custom="http://schemas.android.com/apk/res-auto"
+                                        android:id="@+id/rangebar1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:layout_marginLeft="16dp"
+                                        android:layout_marginRight="16dp"
+                                        custom:pinMaxFont="10sp"
+                                        custom:tickEnd="100"
+                                        custom:tickInterval="1"
+                                        custom:tickStart="0" />
+
+                                    <!-- <LinearLayout
+
+                                         android:layout_width="match_parent"
+                                         android:layout_height="30dp"
+                                         android:layout_below="@+id/progress"
+
+
+                                         android:orientation="horizontal"
+                                         android:paddingLeft="20dp"
+                                         android:paddingRight="20dp">
+
+                                         <Button
+
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:layout_marginRight="10dp"
+                                             android:layout_weight="1"
+                                             android:background="#fcfcfc"
+                                             android:clickable="false"
+                                             android:text="MIN"
+                                             android:textColor="@color/colorTex"
+                                             android:textSize="16dp" />
+
+                                         <Button
+
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:layout_marginLeft="10dp"
+                                             android:layout_weight="1"
+                                             android:background="#fcfcfc"
+                                             android:clickable="false"
+                                             android:text="MAX"
+                                             android:textColor="@color/colorTex"
+                                             android:textSize="16dp" />
+
+
+                                     </LinearLayout>
+     -->
+
+
+                                    <LinearLayout
+                                        android:id="@+id/pbutton"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="45dp"
+                                        android:layout_below="@+id/progress"
+                                        android:layout_marginBottom="10dp"
+
+                                        android:orientation="horizontal"
+                                        android:paddingLeft="20dp"
+                                        android:paddingRight="20dp">
+
+                                        <Button
+                                            android:id="@+id/rang1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_weight="1"
+                                            android:background="#fcfcfc"
+                                            android:clickable="false"
+                                            android:text="MIN \u20b9 0"
+                                            android:textColor="@color/colorTex"
+                                            android:textSize="16dp" />
+
+                                        <Button
+                                            android:id="@+id/rang2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_weight="1"
+                                            android:background="#fcfcfc"
+                                            android:clickable="false"
+                                            android:text="MAX \u20b9 1000"
+                                            android:textColor="@color/colorTex"
+                                            android:textSize="16dp" />
+
+
+                                    </LinearLayout>
+
+                                    <!--Complete UI For Display Pricing Filter-->
+
+
+                                </LinearLayout>
+
+
+                                <!--*******discription***********-->
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+
+                                    android:visibility="gone">
+
+                                    <com.yelona.customfonts.MyTextView
+                                        android:id="@+id/kid"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:padding="16dp"
+                                        android:text="KIDS"
+                                        android:textColor="@color/colorTex"
+                                        android:textSize="13dp" />
+
+                                    <LinearLayout
+                                        android:id="@+id/linear1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:orientation="vertical"
+
+                                        >
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center_vertical"
+                                            android:layout_marginTop="16dp"
+                                            android:src="@drawable/icon_correct_disable"
+
+                                            />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/linear2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:orientation="vertical"
+                                        android:visibility="gone">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center_vertical"
+                                            android:layout_marginTop="16dp"
+                                            android:src="@drawable/icon_correct_enable"
+
+                                            />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+                                <View
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/colordevider"
+
+                                    />
+
+
+                                <!--*******MAN***********-->
+
+
+                            </LinearLayout>
+
+
+                        </ScrollView>
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:fitsSystemWindows="true">
+
+            <Button
+                android:id="@+id/btnGo"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+
+                android:clickable="false"
+                android:text="APPLY"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

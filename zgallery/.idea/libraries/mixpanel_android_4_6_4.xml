@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mixpanel-android-4.6.4">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/3f0f31c22557ac897a18433be6c6ef39be518a7d/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/3f0f31c22557ac897a18433be6c6ef39be518a7d/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_single_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.yelona.SingleItemActivity"
+    tools:showIn="@layout/activity_single_item">
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llmainUI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="fill_parent"
+
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <!--<android.support.v4.widget.NestedScrollView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fillViewport="true"
+                    android:scrollbars="none">-->
+
+
+                <android.support.v4.widget.NestedScrollView
+                    android:id="@+id/srollview1"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:fillViewport="true">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:orientation="vertical">
+
+
+                            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="320dp"
+                                android:layout_margin="2dp"
+                                android:clickable="true"
+                                android:elevation="10dp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="1dp"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent">
+
+                                        <ImageView
+                                            android:id="@+id/imgItem"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="250dp"
+                                            android:layout_alignParentLeft="true"
+                                            android:layout_alignParentRight="true"
+                                            android:scaleType="fitCenter"
+                                            android:src="@drawable/loader_yellow_original_500" />
+                                        <!-- <com.lid.lib.LabelImageView
+                                             android:id="@+id/imgItem"
+                                             android:layout_width="fill_parent"
+                                             android:layout_height="fill_parent"
+                                             android:layout_weight="1"
+
+                                             android:src="@drawable/loader_yellow_original_500"
+                                             app:label_backgroundColor="#C2185B"
+                                             app:label_orientation="LEFT_TOP"
+                                             app:label_text="" />-->
+
+
+                                        <TextView
+                                            android:id="@+id/txtWishLiast"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_alignParentTop="true"
+                                            android:layout_margin="4dp"
+                                            android:background="@drawable/ic_wishlist_default" />
+
+
+                                    </RelativeLayout>
+
+
+                                    <!--   <com.yelona.views.ImageMagnifier
+                                           android:id="@+id/imgItem"
+                                           android:layout_width="match_parent"
+                                           android:layout_alignParentTop="true"
+                                           android:layout_height="fill_parent"
+                                           />
+               -->
+
+                                    <!-- <ImageView
+                                         android:id="@+id/imgItem"
+                                         android:layout_width="match_parent"
+                                         android:layout_height="fill_parent"
+                                         android:scaleType="fitXY"
+                                         app:srcCompat="@drawable/ic_launcher_new" />-->
+                                    <android.support.v7.widget.RecyclerView
+                                        android:id="@+id/recyclerview_images"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="2dp"
+                                        android:visibility="visible" />
+
+                                    <Gallery
+                                        android:id="@+id/gallery"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="left"
+                                        android:gravity="left"
+                                        android:visibility="gone" />
+
+                                </LinearLayout>
+
+
+                            </android.support.v7.widget.CardView>
+
+
+                            <!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="80dp"
+                                android:layout_marginBottom="3dp"
+                                android:layout_marginTop="3dp"
+                                android:clickable="true"
+                                android:elevation="10dp"
+
+                                android:orientation="horizontal">
+                                <android.support.v7.widget.RecyclerView
+                                    android:id="@+id/recyclerview_images"
+                                    android:layout_width="match_parent"
+                                    android:visibility="visible"
+                                    android:layout_height="match_parent" />
+                                <Gallery
+                                    android:layout_width="match_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="left"
+                                    android:visibility="gone"
+                                    android:layout_gravity="left"
+                                    android:id="@+id/gallery"
+                                    />
+
+                            </android.support.v7.widget.CardView>-->
+
+
+                            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+
+                                android:clickable="true"
+                                android:elevation="10dp"
+
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/txtProductName"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="4dp"
+                                        android:text=""
+                                        android:textAppearance="?android:attr/textAppearanceMedium"
+                                        android:textColor="@color/text_color"
+                                        android:textStyle="bold" />
+
+                                    <RatingBar
+                                        android:id="@+id/ratingBar"
+
+                                        style="@style/foodRatingBar_18"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="left"
+                                        android:layout_margin="4dp"
+                                        android:layout_marginLeft="4dp"
+                                        android:isIndicator="false"
+                                        android:numStars="5"
+                                        android:rating="3.5"
+                                        android:visibility="gone" />
+
+                                    <!--
+                                                                <TextView
+                                                                    android:id="@+id/txtProductMRP"
+                                                                    android:layout_width="wrap_content"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:background="@drawable/ic_remove_amt"
+                                                                    android:gravity="center"
+                                                                    android:text=""
+                                                                    android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+                                                                    android:textColor="@color/black"
+                                                                    android:textStyle="bold" />-->
+
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="4dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/txtProductPrice"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+
+                                            android:layout_marginLeft="5dp"
+                                            android:text=""
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:textColor="@color/yelona_price_text_color"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/txtProductMRP"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+
+                                            android:layout_marginLeft="5dp"
+                                            android:background="@drawable/ic_remove_amt"
+                                            android:gravity="center"
+                                            android:text=""
+
+                                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                        <TextView
+                                            android:id="@+id/txtOffer"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:text=""
+
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:textColor="@color/colorPrimaryDark"
+
+
+                                            android:textStyle="bold" />
+
+
+                                    </LinearLayout>
+
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="2dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_marginLeft="4dp"
+                                            android:text="Availability : "
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:textColor="@color/colorSecondaryText"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/txtAvailability"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_marginLeft="4dp"
+                                            android:text=""
+                                            android:textAppearance="?android:attr/textAppearanceSmall"
+                                            android:textColor="@color/yelona_price_text_color" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+                            </android.support.v7.widget.CardView>
+
+
+                            <!--  Dispaly Procudt Size -->
+                            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/crdSize"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:clickable="true"
+                                android:elevation="10dp"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+
+                                    <LinearLayout
+                                        android:id="@+id/llSize"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:padding="16dp">
+
+
+                                        <com.yelona.customfonts.MyTextView
+
+                                            android:id="@+id/size"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="SIZE"
+                                            android:textColor="@color/colorTex"
+                                            android:textSize="17dp" />
+
+                                        <android.support.v7.widget.RecyclerView
+                                            android:id="@+id/recyclerview_size"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_margin="2dp"
+                                            android:visibility="visible" />
+
+
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+                            <!--Complete Display Size UI-->
+
+                            <!--UI Of Check Product Availability By Pincode-->
+
+                            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:clickable="true"
+                                android:elevation="10dp"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+
+                                    <!--Ui For Input User Area Pincode-->
+                                    <LinearLayout
+                                        android:id="@+id/llBeforePincode"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <android.support.design.widget.TextInputLayout
+                                            android:id="@+id/edtPincodeWrapper"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1">
+
+                                            <EditText
+                                                android:id="@+id/edtPincode"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="50dp"
+                                                android:hint="@string/pincode_hint"
+                                                android:inputType="textPostalAddress"
+                                                android:maxLength="6"
+
+                                                android:textColorHint="#000000" />
+                                        </android.support.design.widget.TextInputLayout>
+
+                                        <Button
+                                            android:id="@+id/btnCheckPincode"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+
+                                            android:layout_marginLeft="8dp"
+                                            android:layout_marginRight="8dp"
+                                            android:layout_weight="1"
+                                            android:background="@null"
+                                            android:text="Check Pin Code"
+                                            android:textColor="@color/payu_blue"
+                                            android:textStyle="bold" />
+
+
+                                    </LinearLayout>
+
+                                    <!--Complete Input User Area Pincode-->
+
+                                    <!--UI Form Pincode Availability-->
+
+                                    <LinearLayout
+                                        android:id="@+id/llAfterPincode"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+
+                                        android:layout_marginRight="10dp"
+                                        android:orientation="horizontal">
+
+
+                                        <TextView
+                                            android:id="@+id/txvPincode"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="50dp"
+                                            android:layout_weight="1"
+                                            android:gravity="center|left"
+                                            android:paddingLeft="5dp"
+                                            android:text="saddasdas"
+                                            android:textColor="@color/text_color" />
+
+
+                                        <Button
+                                            android:id="@+id/btnCheckPincodeChange"
+                                            android:layout_width="wrap_content"
+
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="right"
+                                            android:layout_marginLeft="8dp"
+                                            android:layout_marginRight="8dp"
+                                            android:background="@null"
+                                            android:text="Change"
+                                            android:textColor="@color/payu_blue"
+
+
+                                            android:textStyle="bold" />
+
+                                        <!--Complete Display Pincode Availability-->
+
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+                            <!--Complete Product Availability Check Buy Pincode-->
+
+                            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:clickable="true"
+                                android:elevation="10dp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="70dp"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/icon_yelona_trust"
+                                            android:tint="@color/yellow" />
+
+                                        <TextView
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="@string/yelona_trust"
+                                            android:textAllCaps="true" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/icon_yelona_star"
+                                            android:tint="@color/yellow" />
+
+                                        <TextView
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="100% Original"
+                                            android:textAllCaps="true" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/icon_yelona_7day_return"
+                                            android:tint="@color/yellow" />
+
+                                        <TextView
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:text="7 Day Return"
+                                            android:textAllCaps="true" />
+
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+
+                            </android.support.v7.widget.CardView>
+
+
+                            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:elevation="10dp"
+
+                                android:orientation="vertical">
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+
+                                    android:orientation="vertical">
+
+                                    <android.support.design.widget.TabLayout
+                                        android:id="@+id/tabs"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+
+
+                                        app:tabGravity="fill"
+                                        app:tabMode="scrollable" />
+
+                                    <!--   <android.support.v4.view.ViewPager
+
+                                           android:id="@+id/viewpager"
+                                           android:layout_width="fill_parent"
+                                           android:layout_height="wrap_content"
+                                           />-->
+                                    <android.support.v4.view.ViewPager
+                                        android:id="@+id/viewpager"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="250dp"
+                                        android:layout_weight="1" />
+                                    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+
+                                    <TextView
+                                        android:id="@+id/txtDescr"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="4dp"
+                                        android:paddingLeft="4dp"
+                                        android:text="Description"
+                                        android:textAppearance="?android:attr/textAppearanceMedium"
+                                        android:textColor="@color/bg_screen1"
+                                        android:visibility="gone" />
+
+                                    <View
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0.2dp"
+                                        android:background="@color/black_overlay"
+                                        android:visibility="gone" />
+
+                                    <TextView
+                                        android:id="@+id/txtDescrInfo"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="6dp"
+                                        android:paddingLeft="4dp"
+                                        android:text="Description"
+                                        android:textColor="@color/text_color"
+                                        android:visibility="gone" />
+
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </android.support.v4.widget.NestedScrollView>
+
+                <!-- <FrameLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentBottom="true"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentStart="true"
+                     android:layout_weight="1"
+                     android:layout_gravity="center_horizontal"
+                     android:gravity="center_horizontal"
+
+
+
+
+                     >-->
+
+                <LinearLayout
+                    android:id="@+id/fullscreen_content_controls"
+                    style="?metaButtonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:gravity="center"
+
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
+
+                    <Button
+                        android:id="@+id/btnBuyNow"
+
+                        style="?metaButtonBarButtonStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="#eae7e7"
+                        android:text="Buy Now"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/btnAddToCart"
+                        style="?metaButtonBarButtonStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Add To Cart"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+
+                    <!--    <Button
+                            android:id="@+id/btnAddToWishlist"
+
+                            style="?metaButtonBarButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_corner_shadow"
+                            android:text="Add To Wishlist"
+                            android:textColor="#2874F0" />
+                        <Button
+                            android:id="@+id/btnBuyNow"
+
+                            style="?metaButtonBarButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_corner_shadow"
+                            android:text="Buy Now"
+                            android:textColor="#2874F0" />
+
+                        <Button
+                            android:id="@+id/btnAddToCart"
+                            style="?metaButtonBarButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_corner_shadow_yellow"
+                            android:text="Add To Cart"
+                            android:textColor="@color/white" />-->
+
+
+                </LinearLayout>
+
+
+                <!-- </FrameLayout>
+         -->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_no_internet"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_nonetwork" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

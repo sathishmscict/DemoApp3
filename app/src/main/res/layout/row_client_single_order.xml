@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardNotification"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/button_rect_list_normal_white"
+    android:clickable="true"
+    android:elevation="4dp"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="10dp"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <!--<TextView
+                    android:id="@+id/eventName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Event Name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />-->
+
+
+                <!--  <android.support.design.widget.TextInputLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+
+                      android:gravity="center|left">
+
+                      <EditText
+                          android:id="@+id/edtOrderId"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="@null"
+                          android:editable="false"
+                          android:gravity="left"
+                          android:hint="Order Id : "
+                          android:paddingLeft="10dp"
+                          android:paddingRight="10dp"
+                          android:text="12312"
+
+
+                          android:textColor="@color/colorPrimaryDark" />
+                  </android.support.design.widget.TextInputLayout>
+  -->
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtOrderID"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+
+
+                        android:orientation="vertical"
+
+                        android:paddingLeft="8dp"
+                        android:text="Order Id :"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.80">
+
+                        <TextView
+                            android:id="@+id/txtdatetime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:drawableLeft="@drawable/icon_timer"
+                            android:drawableRight="@drawable/icon_order_status"
+                            android:gravity="center"
+
+                            android:paddingLeft="8dp"
+
+
+                            android:text="  05:00 PM     " />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center|left"
+                        android:layout_weight="1">
+
+
+                        <TextView
+                            android:id="@+id/txtapproval"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="4dp"
+                            android:background="@color/approval"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingLeft="18dp" />
+
+
+                        <TextView
+                            android:id="@+id/txtsetup"
+                            android:layout_width="20dp"
+
+                            android:layout_height="20dp"
+                            android:background="@color/setup"
+                            android:gravity="center" />
+
+
+                        <TextView
+                            android:id="@+id/txtscanning"
+                            android:layout_width="20dp"
+
+                            android:layout_height="20dp"
+                            android:background="@color/scanning" />
+
+
+                        <TextView
+                            android:id="@+id/txtqc"
+                            android:layout_width="20dp"
+
+                            android:layout_height="20dp"
+                            android:background="@color/qc" />
+
+
+                        <TextView
+                            android:id="@+id/txtdelivered"
+                            android:layout_width="20dp"
+
+
+                            android:layout_height="20dp"
+                            android:background="@color/delivered" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!--<TextView
+                    android:id="@+id/eventPlace"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Event Place"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />-->
+                <TextView
+                    android:id="@+id/eventTotalTickets"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="2 Tickets"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:layout_weight="2.70"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_calendar_month"
+
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtMonth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="Jan, 2017"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:background="@drawable/shape_calendar_date">
+
+                    <TextView
+                        android:id="@+id/txtDay"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+
+                        android:text="05"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

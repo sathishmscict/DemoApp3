@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1068468730144",
+    "firebase_url": "https://yelona-app.firebaseio.com",
+    "project_id": "yelona-app",
+    "storage_bucket": "yelona-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068468730144:android:0b6d25f1795f2833",
+        "android_client_info": {
+          "package_name": "com.yelona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068468730144-la2g83bq2shhfjvh8nfc47jv240pn1op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yelona",
+            "certificate_hash": "C8D3491BEE1CB4A93F6071616302310A53F84572"
+          }
+        },
+        {
+          "client_id": "1068468730144-qe25iita64004rjnfm0r9dr6repe6ooi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0OyTlUTmW2MU0h--0vQc-E6XvvEHxejo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068468730144-qe25iita64004rjnfm0r9dr6repe6ooi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

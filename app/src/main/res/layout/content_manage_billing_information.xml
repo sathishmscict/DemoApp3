@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_manage_billing_information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.yelona.ManageBillingAddressActivity"
+    tools:showIn="@layout/activity_manage_billing_information">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llAddData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+                        <RadioGroup
+                            android:id="@+id/rdGrpAddressMode"
+
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/rdHome"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:checked="true"
+                                android:text="Home" />
+
+                            <RadioButton
+                                android:id="@+id/rdOffice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Office" />
+
+                        </RadioGroup>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_edtName"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:gravity="center|left">
+
+                            <EditText
+                                android:id="@+id/edtName"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+
+                                android:gravity="center|left"
+                                android:hint="Name*"
+                                android:inputType="textCapWords"
+                                android:paddingLeft="4dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_edtEmail"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:gravity="center|left">
+
+                            <EditText
+                                android:id="@+id/edtEmail"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+
+                                android:gravity="center|left"
+                                android:hint="Email*"
+                                android:inputType="textEmailAddress"
+                                android:paddingLeft="4dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_edtMobile"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:gravity="center|left">
+
+                            <EditText
+                                android:id="@+id/edtMobile"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+
+                                android:gravity="center|left"
+                                android:hint="Mobile No*"
+                                android:inputType="numberSigned"
+                                android:maxLength="10"
+                                android:paddingLeft="4dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_edtPincode"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:gravity="center|left">
+
+                            <EditText
+                                android:id="@+id/edtPincode"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:gravity="center|left"
+                                android:hint="Pincode*"
+                                android:inputType="numberSigned"
+                                android:maxLength="6"
+                                android:paddingLeft="4dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_edtCity"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+
+                            android:gravity="center|left">
+
+                            <EditText
+                                android:id="@+id/edtCity"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+
+                                android:gravity="center|left"
+                                android:hint="City*"
+                                android:inputType="textCapSentences"
+                                android:paddingLeft="4dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+
+                        <Spinner
+                            android:id="@+id/spnState"
+                            android:layout_width="fill_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:visibility="gone"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_edtArea"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:gravity="center|left">
+
+                            <EditText
+                                android:id="@+id/edtArea"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+
+                                android:gravity="center|left"
+                                android:hint="Area*"
+                                android:inputType="textCapSentences"
+                                android:paddingLeft="4dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_edtAddress1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:gravity="center|left">
+
+                            <EditText
+                                android:id="@+id/edtAddress1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+
+                                android:gravity="center|left|top"
+                                android:hint="Address1*"
+                                android:inputType="textCapSentences|textMultiLine"
+                                android:maxLines="3"
+                                android:minLines="2"
+                                android:paddingLeft="4dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_edtAddress2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:gravity="center|left">
+
+                            <EditText
+                                android:id="@+id/edtAddress2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+
+                                android:gravity="center|left|top"
+                                android:hint="Address2*"
+                                android:inputType="textCapSentences|textMultiLine"
+                                android:maxLines="3"
+                                android:minLines="2"
+                                android:paddingLeft="4dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/rounder_corner_grey"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_edtLandmark"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+
+                            android:gravity="center|left">
+
+                            <EditText
+                                android:id="@+id/edtLandmark"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+
+                                android:gravity="center|left"
+                                android:hint="Landmark"
+                                android:inputType="textCapWords"
+                                android:paddingLeft="4dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+
+
+                        <Button
+                            android:id="@+id/btnsave"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+
+                            android:background="@drawable/buttonshape_yellow"
+                            android:text="Delivere Here"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/btnShow"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:background="@drawable/buttonshape_yellow"
+                            android:text="Show Address"
+                            android:textColor="@color/white" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llDisplayData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:scrollbars="none" />
+
+
+
+
+            <TextView
+                android:id="@+id/txtnodata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="NO DATA FOUND"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

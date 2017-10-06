@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../YelonaApp.iml" filepath="$PROJECT_DIR$/../YelonaApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bottom-bar/bottom-bar.iml" filepath="$PROJECT_DIR$/../bottom-bar/bottom-bar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../imageview_library/imageview_library.iml" filepath="$PROJECT_DIR$/../imageview_library/imageview_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../payubiz_sdk/payubiz_sdk.iml" filepath="$PROJECT_DIR$/../payubiz_sdk/payubiz_sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../slider_library/slider_library.iml" filepath="$PROJECT_DIR$/../slider_library/slider_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sweetsheet/sweetsheet.iml" filepath="$PROJECT_DIR$/../sweetsheet/sweetsheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zgallery.iml" filepath="$PROJECT_DIR$/zgallery.iml" />
+    </modules>
+  </component>
+</project>

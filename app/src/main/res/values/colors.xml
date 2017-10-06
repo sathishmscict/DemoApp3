@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="colorPrimary">#333333</color>
+     <color name="colorPrimaryDark">#222222</color>-->
+
+    <!-- <color name="colorPrimary">#673AB7</color>
+     <color name="colorPrimaryDark">#512DA8</color>-->
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorSecondaryText2">#757575</color>
+    <color name="black_icon">#333333</color>
+    <color name="deviderColor">#BDBDBD</color>
+
+
+    <color name="rating1">@color/yelona_price_text_color</color>
+    <color name="rating2">#F5AA2A</color>
+    <color name="rating3">#689F38</color>
+    <color name="rating4">#689F38</color>
+    <color name="rating5">#689F38</color>
+
+
+
+
+
+
+
+    <!--<color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#F5AA2A</color>-->
+
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#689F38</color>
+    <color name="colorAccent">#F5AA2A</color>
+    <color name="colorBackground">#F3F3F3</color>
+
+
+    <color name="colorPrimaryLight">#C8E6C9</color>
+
+
+
+    <color name="window_background">#EFEFEF</color>
+
+
+
+
+
+
+    <color name="white">#FFFFFF</color>
+
+    <!--Intro Slider-->
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#a854d4</color>
+    <color name="dot_dark_screen4">#2278d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <color name="black">#000000</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <!--<item>@color/dot_light_screen4</item>-->
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <!--<item>@color/dot_dark_screen4</item>-->
+    </array>
+
+    <!--Compelte Intro slider-->
+
+
+    <color name="yellow">#F5AA2A</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#AAA</color>
+
+    <color name="shadow">#555555</color>
+    <color name="title">#777777</color>
+
+    <color name="viewbg">#f1f5f8</color>
+
+
+    <color name="green">#A5C536</color>
+
+
+    <color name="approval">#BCA726</color>
+    <color name="setup">#73A439</color>
+    <color name="scanning">#3F5AA5</color>
+    <color name="qc">#DB7141</color>
+    <color name="delivered">#D854CF</color>
+
+
+    <!--    Expanble ListView Related Colors-->
+
+    <color name="level_0">#1abc9c</color>
+    <color name="level_1">#3498db</color>
+    <color name="level_2">#e67e22</color>
+    <color name="level_3">#8e44ad</color>
+    <color name="level_4">#f1c40f</color>
+    <color name="level_5">#2ecc71</color>
+    <color name="level_default">#FFFFFF</color>
+
+    <color name="font_item_drawer">#000000</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="text_color">#333333</color>
+    <color name="yelona_text_color">#333333</color>
+    <color name="yelona_price_text_color">#f64c73</color>
+    <!--Complet Expandable Related Colots-->
+
+
+    <color name="colorSub">#b0afaf</color>
+    <color name="colorTex">#585858</color>
+    <color name="colordevider">#64dad8d8</color>
+    <color name="colorblue">#4c71f5</color>
+
+</resources>

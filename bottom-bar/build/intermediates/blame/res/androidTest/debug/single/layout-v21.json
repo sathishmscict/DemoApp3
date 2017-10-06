@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

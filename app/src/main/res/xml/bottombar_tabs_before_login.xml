@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+
+<!--
+    <tab
+        activeColor="#4CAF50"
+        badgeBackgroundColor="#E64A19"
+        barColorWhenSelected="#E64A19"
+        icon="@drawable/icon_home"
+        id="@+id/tab_home"
+        inActiveColor="#EFEFEF"
+        title="Home" />
+
+    <tab
+        activeColor="#388E3C"
+
+
+        badgeBackgroundColor="#2F3E9E"
+        barColorWhenSelected="#2F3E9E"
+        icon="@drawable/icon_wallet"
+        id="@+id/tab_wallet"
+        inActiveColor="#EFEFEF"
+        title="Wallet" />
+
+    <tab
+        activeColor="#388E3C"
+        badgeBackgroundColor="#d1395c"
+        barColorWhenSelected="#d1395c"
+
+        icon="@drawable/icon_profile"
+        id="@+id/tab_profile"
+        inActiveColor="#EFEFEF"
+        title="Profile" />
+
+    <tab
+        activeColor="#388E3C"
+        badgeBackgroundColor="#a854d4"
+        barColorWhenSelected="#a854d4"
+        icon="@drawable/icon_offer"
+        id="@+id/tab_offer"
+        inActiveColor="#EFEFEF"
+        title="Offers" />
+
+    <tab
+        activeColor="#388E3C"
+
+        badgeBackgroundColor="#D32F2F"
+        barColorWhenSelected="#D32F2F"
+
+        icon="@drawable/icon_logout"
+        id="@+id/tab_logout"
+        inActiveColor="#EFEFEF"
+        title="Logout" />-->
+
+    <tab
+        activeColor="#FFB300"
+        badgeBackgroundColor="#689F38"
+        barColorWhenSelected="#689F38"
+        icon="@drawable/icon_home"
+        id="@+id/tab_home"
+        inActiveColor="#EFEFEF"
+        title="Home" />
+
+    <tab
+        activeColor="#FFB300"
+        badgeBackgroundColor="#689F38"
+        barColorWhenSelected="#689F38"
+        icon="@drawable/icon_wallet"
+        id="@+id/tab_wallet"
+        inActiveColor="#EFEFEF"
+        title="Wallet" />
+
+<!--    <tab
+        activeColor="#000000"
+        badgeBackgroundColor="#8BC34A"
+        barColorWhenSelected="#8BC34A"
+
+        icon="@drawable/icon_profile"
+        id="@+id/tab_profile"
+        inActiveColor="#EFEFEF"
+        title="Profile" />-->
+
+    <tab
+        activeColor="#FFC107"
+        badgeBackgroundColor="#689F38"
+        barColorWhenSelected="#689F38"
+        icon="@drawable/icon_offer"
+        id="@+id/tab_offer"
+        inActiveColor="#EFEFEF"
+        title="Offers" />
+
+    <tab
+        activeColor="#FFC107"
+        badgeBackgroundColor="#689F38"
+        barColorWhenSelected="#689F38"
+
+        icon="@drawable/icon_login"
+        id="@+id/tab_logout"
+        inActiveColor="#EFEFEF"
+        title="Login" />
+
+</tabs>

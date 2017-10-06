@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Yelona</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--DashBoard Activity-->
+    <string name="search_hint">Search for Products, Brands and More</string>
+    <string name="title_activity_search">Search</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_item_display">Items</string>
+    <string name="title_activity_wish_list">WishList</string>
+    <string name="title_activity_single_item">SingleItemActivity</string>
+    <string name="title_activity_display_images">DisplayImagesActivity</string>
+    <string name="yelona_trust">Yelona Trust</string>
+    <string name="title_activity_manage_cart">ManageCart</string>
+    <string name="empty_cart_message">Your Cart is empty!</string>
+    <string name="title_activity_manage_address">ManageAddressActivity</string>
+    <string name="title_activity_manage_billing_information">Billing Information</string>
+    <string name="title_activity_manage_payment_information">Payment Information</string>
+    <string name="title_activity_order_review">Order Review</string>
+    <string name="title_activity_payments">Payments</string>
+    <string name="title_activity_order_successfull">OrderSuccess</string>
+
+    <string name="no_network">Not able to connect to App</string>
+    <string name="no_network2">Please Enable Wifi or Mobile data</string>
+    <string name="no_network3">Sorry,no Internet conenctivity detected. Please reconnect and try again.</string>
+
+
+    <!--<string name="facebook_app_id">713988655431885</string>
+    <string name="fb_login_protocol_scheme">fb713988655431885</string>-->
+
+    <string name="facebook_app_id">1102621803199574</string>
+    <string name="fb_login_protocol_scheme">fb1102621803199574</string>
+
+<!--
+    <string name="facebook_app_id">1142817812416563</string>
+    <string name="fb_login_protocol_scheme">fb1142817812416563</string>
+-->
+
+
+
+
+
+
+    <string name="user_exists">User already logged in</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <!-- hints -->
+    <string name="email_hint">Email</string>
+    <string name="username_hint">Username</string>
+    <string name="username_email_hint">Mobile/Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+
+    <string name="forgot">forgot?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">No account yet? Create one</string>
+    <string name="sign_up_button">Submit</string>
+
+    <string name="fb_login_text">Facebook</string>
+    <string name="twitter_login_text">Sign in with Twitter</string>
+    <string name="google_login_text">Google</string>
+    <string name="or">OR</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="str_no_data_found">Coming Soon right now No Products Available in selected Category</string>
+    <string name="pincode_hint">Pincode</string>
+    <string name="title_activity_rate_and_review">RateAndReview</string>
+    <string name="rating_descr">Rating seleted by you will be saved automatically</string>
+    <string name="title_activity_new_dash_board">NewDashBoardActivity</string>
+    <string name="title_activity_sub_categories">SubCategories</string>
+    <string name="title_activity_display_orders">DisplayOrders</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="str_subtitle">Le Na</string>
+    <string name="app_subtitle">Le Na ho To Yahi Se Lo Na</string>
+    <string name="str_create_new_account">Create New Account</string>
+    <string name="sign_in_button">SIGN IN</string>
+
+
+
+
+
+</resources>
