@@ -47,6 +47,7 @@ public class DisplayImagesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_display_images);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -76,7 +77,7 @@ public class DisplayImagesActivity extends AppCompatActivity {
             setTitle(getIntent().getStringExtra("ProductName"));
         } catch (Exception e) {
             e.printStackTrace();
-            setTitle("sa");
+            setTitle("sat");
 
         }
 
