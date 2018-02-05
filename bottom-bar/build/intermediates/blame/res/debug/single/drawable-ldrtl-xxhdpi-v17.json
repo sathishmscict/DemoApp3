@@ -1,14 +1,26 @@
 [
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     }
 ]

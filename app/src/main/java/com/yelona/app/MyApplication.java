@@ -7,6 +7,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.support.multidex.MultiDex;
+import android.support.multidex.MultiDexApplication;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
@@ -32,7 +33,7 @@ import io.fabric.sdk.android.Fabric;
 /**
  * Created by Ravi on 13/08/15.
  */
-public class MyApplication extends Application {
+public class MyApplication extends MultiDexApplication {
 
     public static final String TAG = MyApplication.class
             .getSimpleName();
@@ -43,7 +44,7 @@ public class MyApplication extends Application {
 
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
-        MultiDex.install(this);
+        //MultiDex.install(this);
     }
 
     public void printHashKey(){

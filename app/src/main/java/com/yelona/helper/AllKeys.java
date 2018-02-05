@@ -24,7 +24,8 @@ public class AllKeys {
 	public static final String URL_CITYNAME_BY_PINCODE_CHECK = "https://www.whizapi.com/api/v2/util/ui/in/indian-city-by-postal-code?project-app-key=p75dteec5dvdymhkis18c5lk";
 
 	public static final String URL_CITYNAME_BY_PINCODE_CHECK2 = "http://postalpincode.in/api/pincode/";
-	public static String TAG_PAYMENT_HASH_GENERATION="http://19designs.org/yelona/get_hash.php";
+	//public static String TAG_PAYMENT_HASH_GENERATION="http://19designs.org/yelona/get_hash.php";
+	public static String TAG_PAYMENT_HASH_GENERATION="http://yelona.studyfield.com/yelona/get_hash.php";
 	public static final String TAG_MOBILE_SLIDER_1="Mobile Slider One";
 	public static final String TAG_MOBILE_SLIDER_2="Mobile Slider Two";
 
@@ -34,7 +35,9 @@ public class AllKeys {
 	}
 
 
-	public static final String WEBSITE = "http://19designs.org/yelona/index.php/welcome/";
+	//public static final String WEBSITE = "http://19designs.org/yelona/index.php/welcome/";
+	public static final String WEBSITE = "http://yelona.studyfield.com/yelona/index.php/welcome/";
+
 	//public static final String WEBSITE = "http://arham.dnsitexperts.com/yelona/index.php/welcome/";//http://demo1.dnsitexperts.com/
 	//public static final String WEBSITE = "http://19designs.org/yelona/index.php/welcome/";//http://demo1.dnsitexperts.com/
 

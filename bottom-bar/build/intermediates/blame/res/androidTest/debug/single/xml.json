@@ -1,10 +1,18 @@
 [
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\dummy_tabs_three.xml",
-        "source": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\src\\androidTest\\res\\xml\\dummy_tabs_three.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/androidTest/debug/xml/dummy_tabs_five.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/src/androidTest/res/xml/dummy_tabs_five.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\dummy_tabs_five.xml",
-        "source": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\src\\androidTest\\res\\xml\\dummy_tabs_five.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/androidTest/debug/xml/dummy_tabs_three.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/src/androidTest/res/xml/dummy_tabs_three.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\dummy_tabs_five.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\src\\androidTest\\res\\xml\\dummy_tabs_five.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\dummy_tabs_three.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\src\\androidTest\\res\\xml\\dummy_tabs_three.xml"
     }
 ]

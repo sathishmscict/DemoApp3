@@ -3,6 +3,7 @@ package com.yelona;
 import android.app.ProgressDialog;
 import android.app.VoiceInteractor;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.icu.math.BigDecimal;
@@ -14,6 +15,7 @@ import android.os.StrictMode;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputLayout;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
@@ -54,6 +56,7 @@ import com.yelona.app.MyApplication;
 import com.yelona.database.dbhandler;
 import com.yelona.helper.AllKeys;
 import com.yelona.helper.ServiceHandler;
+import com.yelona.pojo.DashBoardCategories;
 import com.yelona.session.SessionManager;
 
 import org.json.JSONArray;
@@ -714,7 +717,32 @@ public class ManagePaymentsActivity extends AppCompatActivity implements OneClic
                 txtsmsdescr.setText("Please verify your code send to your mobile no.");
                 progress.hide();
 
-            } else {
+            }
+            else if(response.contains("Your validity is expired"))
+            {
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(ManagePaymentsActivity.this);
+                alertDialogBuilder.setTitle("Server error");
+                alertDialogBuilder.setMessage("SMS balance validity has been expired...");
+                alertDialogBuilder.setPositiveButton("yes",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface arg0, int arg1) {
+
+                                arg0.cancel();
+                                arg0.dismiss();
+
+                                Intent intent = new Intent(context, NewDashBoardActivity.class);
+                                startActivity(intent);
+                                finish();
+                            }
+                        });
+
+
+                AlertDialog alertDialog = alertDialogBuilder.create();
+                alertDialog.show();
+
+            }
+            else {
                 Toast.makeText(context, "Try again...", Toast.LENGTH_SHORT).show();
             }
 

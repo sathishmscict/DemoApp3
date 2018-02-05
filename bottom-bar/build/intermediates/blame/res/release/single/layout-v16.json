@@ -1,6 +1,10 @@
 [
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\layout-v16\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\layout-v16\\notification_template_custom_big.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

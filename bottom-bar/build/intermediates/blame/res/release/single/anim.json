@@ -1,66 +1,130 @@
 [
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\77c975faaf731d24b6816afd4e31a82457e56f6f\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\139d14030bb7ba061eb6c4f0a076c9c25ab562c9\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\77c975faaf731d24b6816afd4e31a82457e56f6f\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/design_fab_out.xml",
+        "source": "/Users/mac/.android/build-cache/2b8f6dc35caa414a157eb62665ea706d37cee5e9/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\139d14030bb7ba061eb6c4f0a076c9c25ab562c9\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\77c975faaf731d24b6816afd4e31a82457e56f6f\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
+        "source": "/Users/mac/.android/build-cache/2b8f6dc35caa414a157eb62665ea706d37cee5e9/output/res/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/mac/.android/build-cache/2b8f6dc35caa414a157eb62665ea706d37cee5e9/output/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\139d14030bb7ba061eb6c4f0a076c9c25ab562c9\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
+        "source": "/Users/mac/.android/build-cache/2b8f6dc35caa414a157eb62665ea706d37cee5e9/output/res/anim/design_snackbar_in.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\139d14030bb7ba061eb6c4f0a076c9c25ab562c9\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\77c975faaf731d24b6816afd4e31a82457e56f6f\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\139d14030bb7ba061eb6c4f0a076c9c25ab562c9\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\127a7ed590c6e8347a998f7b32660b5b8b2fd32f\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\139d14030bb7ba061eb6c4f0a076c9c25ab562c9\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/mac/.android/build-cache/2b8f6dc35caa414a157eb62665ea706d37cee5e9/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\77c975faaf731d24b6816afd4e31a82457e56f6f\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/design_fab_in.xml",
+        "source": "/Users/mac/.android/build-cache/2b8f6dc35caa414a157eb62665ea706d37cee5e9/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\77c975faaf731d24b6816afd4e31a82457e56f6f\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\anim\\abc_slide_out_bottom.xml"
     }
 ]

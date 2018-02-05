@@ -1,6 +1,9 @@
 package com.yelona.databinding;
 
+import android.graphics.Color;
+import android.support.v7.widget.SearchView;
 import android.view.View;
+import android.widget.TextView;
 
 import com.yelona.R;
 
@@ -30,6 +33,10 @@ public class ActivityMainBinding extends android.databinding.ViewDataBinding  {
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView0.setTag(null);
         this.search = (android.support.v7.widget.SearchView) bindings[1];
+
+
+
+
         setRootTag(root);
         // listeners
         invalidateAll();

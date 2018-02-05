@@ -1,6 +1,10 @@
 [
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\139d14030bb7ba061eb6c4f0a076c9c25ab562c9\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/release/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/mac/.android/build-cache/2b8f6dc35caa414a157eb62665ea706d37cee5e9/output/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\release\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\77c975faaf731d24b6816afd4e31a82457e56f6f\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }
 ]

@@ -180,6 +180,7 @@ public class ForgotPassword extends AppCompatActivity {
 
             ServiceHandler sh = new ServiceHandler();
             response = sh.makeServiceCall(url_checkDetails, ServiceHandler.GET);
+            Log.d(TAG , "URL CheckUserDetails Response : "+response);
 
 
             return null;
@@ -216,7 +217,32 @@ public class ForgotPassword extends AppCompatActivity {
                 edtEmailWrapper.setErrorEnabled(false);
 
 
-            } else {
+            }
+            else if(response.contains("failed to open stream"))
+            {
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(ForgotPassword.this);
+                alertDialogBuilder.setTitle("Server error");
+                alertDialogBuilder.setMessage("SMS balance validity has been expired...");
+                alertDialogBuilder.setPositiveButton("yes",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface arg0, int arg1) {
+
+                                arg0.cancel();
+                                arg0.dismiss();
+
+                                /*Intent intent = new Intent(context, LoginActivity.class);
+                                startActivity(intent);
+                                finish();*/
+                            }
+                        });
+
+
+                AlertDialog alertDialog = alertDialogBuilder.create();
+                alertDialog.show();
+
+            }
+            else {
 
                 Snackbar.make(coordinateLayout, "Email id does not exist", Snackbar.LENGTH_LONG).show();
                 edtEmailWrapper.setError("Email id does not exist");

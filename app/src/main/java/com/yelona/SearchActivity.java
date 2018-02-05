@@ -3,6 +3,7 @@ package com.yelona;
 import android.content.Context;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -40,6 +41,7 @@ import com.yelona.pojo.SearchData;
 import com.yelona.session.SessionManager;
 
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -148,6 +150,8 @@ public class SearchActivity extends AppCompatActivity {
 
 
 
+
+
         getProductDataFromServer("");
 
 
@@ -211,7 +215,14 @@ public class SearchActivity extends AppCompatActivity {
 
                                 //SearchData(String search_flag, String search_id, String search_product_id, String search_name, String search_category_id, String search_category_name, String search_category_type, String search_category_type_name, String search_is_active_seller, String search_is_active_admin, String search_sku, String search_price) {
 
-                                SearchData sc = new SearchData("true", String.valueOf(cc.getInt(TAG_SEARCH_ID)), String.valueOf(cc.getInt(TAG_SEARCH_PRODUCTID)), cc.getString(TAG_SEARCH_NAME), String.valueOf(cc.getInt(TAG_SEARCH_CATEGORYID)), cc.getString(TAG_SEARCH_CATEGORYNAME), cc.getString(TAG_SEARCH_CATEGORY_TYPE), cc.getString(TAG_SEARCH_CATEGORY_TYPE_NAME), cc.getString(TAG_SEARCH_IS_ACTIVE_SELLER), cc.getString(TAG_SEARCH_IS_ADMIN_ACTIVE), cc.getString(TAG_SEARCH_SKU), String.valueOf(cc.getInt(TAG_SEARCH_PRICE)));
+                                SearchData sc = new SearchData("true",
+                                        String.valueOf(cc.getInt(TAG_SEARCH_ID)), String.valueOf(cc.getInt(TAG_SEARCH_PRODUCTID)),
+                                        cc.getString(TAG_SEARCH_NAME), String.valueOf(cc.getInt(TAG_SEARCH_CATEGORYID)),
+                                        cc.getString(TAG_SEARCH_CATEGORYNAME), cc.getString(TAG_SEARCH_CATEGORY_TYPE),
+                                        cc.getString(TAG_SEARCH_CATEGORY_TYPE_NAME), cc.getString(TAG_SEARCH_IS_ACTIVE_SELLER),
+                                        cc.getString(TAG_SEARCH_IS_ADMIN_ACTIVE), cc.getString(TAG_SEARCH_SKU),
+                                        String.valueOf(cc.getInt(TAG_SEARCH_PRICE)));
+
 
                                 list_SearchData.add(sc);
 

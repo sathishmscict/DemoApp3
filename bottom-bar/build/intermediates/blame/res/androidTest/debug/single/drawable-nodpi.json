@@ -1,6 +1,10 @@
 [
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-nodpi\\empty_icon.png",
-        "source": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\src\\androidTest\\res\\drawable-nodpi\\empty_icon.png"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/androidTest/debug/drawable-nodpi/empty_icon.png",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/src/androidTest/res/drawable-nodpi/empty_icon.png"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-nodpi\\empty_icon.png",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\src\\androidTest\\res\\drawable-nodpi\\empty_icon.png"
     }
 ]

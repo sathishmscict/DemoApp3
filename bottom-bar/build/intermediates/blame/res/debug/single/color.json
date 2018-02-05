@@ -1,90 +1,178 @@
 [
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_tint_default.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\77c975faaf731d24b6816afd4e31a82457e56f6f\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_tint_switch_thumb.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_tint_spinner.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\77c975faaf731d24b6816afd4e31a82457e56f6f\\output\\res\\color\\design_error.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_btn_colored_text_material.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_tint_edittext.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\1c3f9a4c8ce29fa2025f9a4142e05454865e6089\\output\\res\\color\\design_error.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/mac/.android/build-cache/2b8f6dc35caa414a157eb62665ea706d37cee5e9/output/res/color/design_tint_password_toggle.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\8c0a399c8bc0f2f81bfbf3b658cd37eae0371082\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "E:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\SATHISH\\.android\\build-cache\\1c3f9a4c8ce29fa2025f9a4142e05454865e6089\\output\\res\\color\\design_tint_password_toggle.xml"
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/mac/.android/build-cache/2b8f6dc35caa414a157eb62665ea706d37cee5e9/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/F:\\Android\\LiveProjects\\YelonaApp\\bottom-bar\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/C:\\Users\\SATHISH\\.android\\build-cache\\ab016caf195350d7e11fb2f941b0dff96aae4a08\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/Android/Live Projects/YelonaApp/bottom-bar/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/26a8f1d6efae4a6a74409c72d476ad1f19ac6dfd/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     }
 ]
